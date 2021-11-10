@@ -21,9 +21,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 3rem 1.5rem 3rem 1.5rem; */
   height: 100vh;
   margin: auto 0;
+  padding: 0rem 1rem;
+  overflow-x: hidden;
+
 }
 
 .container-box {
@@ -53,6 +55,7 @@ body {
   height: 250px;
   border-top-right-radius: 0.6rem;
   border-top-left-radius: 0.6rem;
+
 }
 
 .person-details {
@@ -171,7 +174,8 @@ display:none;
  position: absolute;
  margin-top: -10rem;
  margin-left: 3rem;
- border-radius: 0.6rem;
+ border-radius: 0.6rem;  
+
 
 }
 .share-outside h1{
@@ -247,7 +251,9 @@ display:none;
 }
 .image img{
   width: 100%;
-  height: 100%;;
+  height: 100%;
+ border-top-right-radius:0;
+
 }
 .desktop-column{
   display: flex;
